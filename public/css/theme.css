@@ -1,0 +1,94 @@
+.logo {
+    float: left;
+    padding: 5px;
+    width: 127px;
+    height: 22px;
+}
+
+.modal-header {
+    border-bottom: 0px solid #e5e5e5 !important;
+    border: none !important;
+}
+
+.modal-content {
+    border-radius: 0px !important;
+}
+
+.modal-header {
+    height: auto;
+    background-color: #f4f4f4;
+    text-align: center;
+    border: 0;
+}
+
+.logo-sm {
+    width: 60px;
+    height: auto
+}
+
+.logo-xs {
+    width: 45px;
+    height: auto
+}
+
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #b4b4b4;
+    border-color: #b4b4b4;
+}
+
+.student_signup_block {
+    text-align: center;
+    margin: 3rem 0px 1rem;
+}
+
+.card-block {
+    /*width: 43rem;*/
+    /*margin: 0px auto 2rem;*/
+    border: 1px solid rgb(218, 218, 218);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 3px 0px;
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+}
+
+.block-form {
+    margin: 0px auto;
+    padding: 4rem 4rem 0rem;
+}
+
+.card-block .card-title {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: normal;
+    margin: 0px 0px 2rem;
+}
+
+.block-form input {
+    width: 100%;
+    font-family: ProximaNova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px 0px inset;
+    border: 1px solid rgb(218, 218, 218);
+    outline: none;
+    height: 4.8rem;
+}
+.card-footer{
+    border-top: 1px solid rgb(218, 218, 218);
+    margin: 2.5rem 0px 0px; padding: 4rem; text-align: center; background-color: rgb(245, 245, 243);
+}
+.select2-container .select2-selection--single{
+    height: 45px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 40px !important;
+}
+.select2-container{
+    width: 100% !important;
+}
+.has-error .select2-container--default .select2-selection--single{
+    border: solid 1px #a94442;
+}
